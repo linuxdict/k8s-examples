@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: redis-replica
-        image: registry.k8s.io/redis-slave:v2
+        image: liuedy/redis-slave:v2
         ports:
         - name: redis-server
           containerPort: 6379
